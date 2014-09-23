@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BriskDesk.Service", "BriskD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BriskDesk.Tests", "BriskDesk.Tests\BriskDesk.Tests.csproj", "{5222607C-1B25-4E0F-8BD4-7110DCE6F23A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BriskDesk.Web", "BriskDesk.Web\BriskDesk.Web.csproj", "{EBAC3DCA-3393-48DE-A3F7-FC3543C0BB19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5222607C-1B25-4E0F-8BD4-7110DCE6F23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5222607C-1B25-4E0F-8BD4-7110DCE6F23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5222607C-1B25-4E0F-8BD4-7110DCE6F23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBAC3DCA-3393-48DE-A3F7-FC3543C0BB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBAC3DCA-3393-48DE-A3F7-FC3543C0BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBAC3DCA-3393-48DE-A3F7-FC3543C0BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBAC3DCA-3393-48DE-A3F7-FC3543C0BB19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
