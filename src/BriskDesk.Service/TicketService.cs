@@ -15,6 +15,7 @@ namespace BriskDesk.Service
         void ChangeStatus(Guid ticketId, TicketStatus status);
         void AssignToUser(Guid ticketId, Guid userId);
         void PostMessage(Guid ticket, Guid userId, string text);
+        //TODO: create new ticket
     }
     public class TicketService : ITicketService
     {

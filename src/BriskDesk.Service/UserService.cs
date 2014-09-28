@@ -11,6 +11,7 @@ namespace BriskDesk.Service
     public interface IUserService
     {
         User GetById(Guid id);
+        //TODO: create new user
     }
     public class UserService : IUserService
     {
